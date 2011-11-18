@@ -638,7 +638,7 @@ abstract class SpotStruct_abs {
 					$data['content'] = gzdeflate($data['content']);
 				} # if
 				
-		 if (!isset($data['serialized'])) { 
+        if (!isset($data['serialized'])) { 
           $data['serialized'] = false; 
         } # if 
  
